@@ -7,7 +7,7 @@ maven 'Maven'
 stages{
 stage('Checkout'){
 steps{
-git branch:'master' url:'https://github.com/PadmajaNaik14/Mymaventestapp.git'
+git branch:'master' ,url:'https://github.com/PadmajaNaik14/Mymaventestapp.git'
 }
 }
 stage('Build'){
